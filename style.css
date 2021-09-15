@@ -1,0 +1,85 @@
+:root {
+	--color-bg: #fffaef;
+	--color-text: #383838;
+	--color-sedans: #FFA726;
+	--color-suvs: #009688;
+	--color-luxury: #004D40;
+
+	--font-header: "Oswald", sans-serif;
+	--font-body: "Lato", sans-serif;
+}
+
+body {
+
+	margin: 0;
+
+	color: var(--color-text);
+	font-family: var(--font-body);
+}
+
+img {
+	width: 4vw;
+}
+
+#conteneur {
+	display: flex;
+	width: 60vw;
+	height: 100vh;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.sedans {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color-sedans);
+	color: var(--color-bg);
+	padding: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.suvs {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color-suvs);
+	color: var(--color-bg);
+	padding: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+.luxury {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--color-luxury);
+	color: var(--color-bg);
+	padding: 30px;
+	justify-content: center;
+	align-items: center;
+}
+
+button {
+	all: unset;
+	border: 1px solid var(--color-bg);
+	background-color: var(--color-bg);
+
+	border-radius: 20px;
+	padding: 8px 15px;
+
+	cursor: pointer;
+}
+
+.bsedans {
+	color: var(--color-sedans);
+}
+
+.bsuvs {
+	color: var(--color-suvs);
+}
+
+.bluxury {
+	color: var(--color-luxury);
+}
